@@ -25,12 +25,16 @@ Best way to install is to clone the repository and add the path to your Python p
 
 In order to run PyLoT you need to install:
 
-- python 2 or 3
+- python 2 or 3 (currently only up to 3.4 due to PySide incompatibility)
 - scipy
 - numpy
 - matplotlib
 - obspy
 - pyside
+
+Optional but recommended:
+
+- pyqtgraph
 
 #### Some handwork:
 
@@ -78,7 +82,7 @@ PyLoT has been tested on Mac OSX (10.11), Debian Linux 8 and on Windows 10.
 - array map to visualize stations and control onsets (beta feature, switch to manual picks not implemented)
 
 ##### Platform support:
-- Python 3 support
+- Python 3 support (currently only up to 3.4 due to PySide incompatibility)
 - Windows support
 
 ##### Performance:
@@ -94,6 +98,7 @@ PyLoT has been tested on Mac OSX (10.11), Debian Linux 8 and on Windows 10.
 - some Qt related errors might occur at runtime
 - filter toggle not working in pickDlg
 - PyLoT data structure requires at least three parent directories for waveform data directory
+- automatic setup not yet working
 
 ## Staff
 
